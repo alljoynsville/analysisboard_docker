@@ -7,6 +7,6 @@ RUN apt-get install -y xz-utils \
 	   git 
 RUN apt-get clean 
 RUN rm -rf /var/lib/apt/lists/*
-RUN pip install -U platformio
+RUN pip install -U https://github.com/platformio/platformio-core/archive/develop.zip
 
 
